@@ -7,9 +7,9 @@
 
 ```yaml
 -Details:
-      -Name: SecFuzzer
-      -type: Simple directory brute-force tool written with python.
-      -install: git clone https://github.com/RobinTrigon/SecFuzzer ; cd SecFuzzer ; python3 SecFuzzer.py
+      -Name: AdminSeeker
+      -type: Simple admin finder tool written with python.
+      -install: git clone https://github.com/RobinTrigon/AdminSeeker ; cd AdminSeeker ; python3 finder.py
       -thanks: [ ! ]  The Dark Raver
       -coded by: Robin Trigon | 3rr0r-404
 
