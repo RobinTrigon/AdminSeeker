@@ -4,36 +4,31 @@ import os
 import time
 import sys
 print('''
-        !!!!!!   !!!!!!!   !!!!!!!  !!!!!!!!  !!!!!!!!             !!    !!  !!!!!!!!  !!    !!
-        !!       !!   !!   !!   !!  !!    !!  !!    !!             !!    !!  !!    !!  !!    !!
-        !!!!!!   !!!!!!!   !!!!!!!  !!    !!  !!!!!!!!   !!!!!     !!!!!!!!  !!    !!  !!!!!!!!
-        !!       !! !!     !! !!    !!    !!  !! !!                      !!  !!    !!        !!
-        !!!!!!   !!  !!    !!  !!   !!!!!!!!  !!  !!                     !!  !!!!!!!!        !!
+
 ''')
 def slowprint(s):
     for c in s + '\n' :
         sys.stdout.write(c)
         sys.stdout.flush()
         time.sleep(10. / 100)
-slowprint("[!] Starting : ")
+slowprint("R       o       b        i      n      T      r      i       g       o        n ")
 time.sleep(5)
 os.system('clear')
 print('''
-\033[96m                                   
-  .    .      .   .-.      .        
- /_\ .-| .-.-...-.`-..-,.-,|_,.-,.-.
-'   '`-'-' ' ''' '`-'`'-`'-' ``'-'                                    
+\033[96m
+          ╔═╗┌┬┐┌┬┐┬┌┐┌  ╔═╗┌─┐┌─┐┬┌─┌─┐┬─┐
+          ╠═╣ │││││││││  ╚═╗├┤ ├┤ ├┴┐├┤ ├┬┘
+          ╩ ╩─┴┘┴ ┴┴┘└┘  ╚═╝└─┘└─┘┴ ┴└─┘┴└─   
+                                               RobinTrigon                                            
 ''')
-print(" \033[95m [!] This tool is create by 3RR0R-404 ")
-print(" \033[95m [!] Contact with me:--> https://www.facebook.com/robin2123.py")
-print(" \033[95m [!] It's a admin finder tool")
-print(" \033[95m [1] use: You must write protocole https:// or https:// ex: http://www.ex.com  ")
-print(" \033[95m [2]you must write ' / ' at the end of url: www.example.com/")
+print(" \033[95m [!] Contact with me:--> https://www.facebook.com/RobinTrigon")
+print(" \033[95m [1] use: You must write protocole https:// or https:// ex: http://www.ex.com/  ")
+
             
+print (" ")
+url = input("\033[97m [!] Enter URL : ")
 
-url = input("\033[97m [!] Enter URL # ")
-
-print ("[!] E-A-FINDING : ")
+print (" [!] AdminSeeking... ")
 print("                                                                                        ")
 
 passe = ('admin/','administrator/','login.php','administration/','admin1/','admin2/','admin3/','admin4/','admin5/','moderator/','webadmin/','adminarea/','bb-admin/','adminLogin/','admin_area/','panel-administracion/','instadmin/',
@@ -159,17 +154,15 @@ for hani in passe :
     curl = url+hani
     try :
         openurl = urllib.request.urlopen(curl)
-        print("_____________________________________________________________")
+
         print("                                                             ")
-        print("\033[92m [!] hurrey!!:: yeap admin panel found -->># "+curl)
-        print("_____________________________________________________________")
+        print("\033[92m ✅  "+curl)
+
     except urllib.error.URLError as msg :
-        print ("\033[91m [!] ADMIN NOT FOUND IN -->> "+curl)
+        print ("\033[91m ❌  "+curl)
 
-
-print ("----------------------------------------------------------------------------------------")
 print ("\033[93m    [!] i HOPE I HAVE HELPED YOU ^_^ , GREETZ-TO--->># ALL BANGLADESHI HACKERS ")
-print ("----------------------------------------------------------------------------------------")
+
 
 
 # Don't copy this code try to write your code.....!!!
